@@ -1,0 +1,13 @@
+pose_landmarks
+    姿态关键点，包括：
+        x,y:宽，高,归一化到(0.0,1.0)
+        z:深度，臀部中点深度为原点，值越小越靠近相机，大小与x比例大致相同
+        visibility:关键点在图像中存在且未被遮挡(可见)的可能性
+
+pose_world_landmarks
+    3D坐标：
+        x,y,z:以米为单位的真实世界3D坐标，原点位于臀部中心
+        visibility
+
+segmentation_mask
+    输出分割掩码

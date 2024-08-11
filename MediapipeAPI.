@@ -1,0 +1,20 @@
+static_image_mode
+    为false时将输入视为视频流，否则为图像(true),默认为false
+
+model_complexity
+    0,1,2;数字越大精度越高，延迟越大，默认为1
+
+smooth_landmarks
+    true:对关键点进行平滑处理，false反之。默认true
+
+enable_segmentation
+    true:除了关键点外还会对人物和背景进行黑白分割。默认false
+
+smooth_segmentation
+    true:平滑分割，默认true
+
+min_detection_confidence
+    最小检测置信度(0.0,1.0),默认0.5
+
+min_tracking_confidence
+    最小跟踪置信度(0.0,1.0),默认0.5
