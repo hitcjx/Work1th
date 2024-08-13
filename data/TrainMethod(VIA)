@@ -1,0 +1,59 @@
+
+
+使用 VIA 进行关键帧标注时，你需要为每种错误类型创建一个对应的属性，以便在标注时能够区分不同的错误。
+
+具体步骤如下：
+
+在 VIA 中添加属性：
+
+打开 VIA 工具，在左侧的 "Attributes" 选项卡中，点击 "Add Attribute" 按钮。
+
+为每种错误类型创建一个属性，例如：
+
+heel_raise: 表示脚后跟离地
+
+lean_forward: 表示上半身过度前倾
+
+knee_over_toe: 表示膝盖过度前移
+
+knee_valgus: 表示膝盖内扣
+
+hip_imbalance: 表示髋部和膝盖不对称
+
+你可以将这些属性的类型设置为 "checkbox"，以便在标注时可以选择多个错误类型。
+
+进行关键帧标注：
+
+播放视频，找到需要标注的关键帧。
+
+在关键帧上点击鼠标左键，创建一个关键帧。
+
+在弹出的窗口中，勾选该关键帧对应的错误类型。
+
+例如，如果某个关键帧的错误类型是 "脚后跟离地" 和 "上半身过度前倾"，你需要勾选 heel_raise 和 lean_forward 两个属性。
+
+导出标注数据：
+
+标注完成后，导出标注数据，例如 JSON 或 CSV 格式。
+
+导出的数据中会包含每个关键帧的属性值，包括动作是否完成以及具体的错误类型。
+
+示例：
+
+假设你标注了一个关键帧，该关键帧的错误类型是 "脚后跟离地" 和 "上半身过度前倾"，那么导出的 JSON 数据中可能会包含以下信息：
+
+{
+  "filename": "video_001.mp4",
+  "frames": [
+    {
+      "fid": 10,
+      "action_completed": true,
+      "heel_raise": true,
+      "lean_forward": true,
+      "knee_over_toe": false,
+      "knee_valgus": false,
+      "hip_imbalance": false
+    }
+  ]
+}
+
