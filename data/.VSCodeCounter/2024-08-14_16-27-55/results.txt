@@ -1,0 +1,41 @@
+Date : 2024-08-14 16:27:55
+Directory : /home/xuan/PycharmProjects/Work1th/data
+Total : 16 files,  13630 codes, 0 comments, 0 blanks, all 13630 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| JSON     |         15 |     13,565 |          0 |          0 |     13,565 |
+| CSV      |          1 |         65 |          0 |          0 |         65 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                             | files      | code       | comment    | blank      | total      |
++--------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                |         16 |     13,630 |          0 |          0 |     13,630 |
++--------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                         | language | code       | comment    | blank      | total      |
++--------------------------------------------------+----------+------------+------------+------------+------------+
+| /home/xuan/PycharmProjects/Work1th/data/1.json   | JSON     |        431 |          0 |          0 |        431 |
+| /home/xuan/PycharmProjects/Work1th/data/10.json  | JSON     |        424 |          0 |          0 |        424 |
+| /home/xuan/PycharmProjects/Work1th/data/11.json  | JSON     |        324 |          0 |          0 |        324 |
+| /home/xuan/PycharmProjects/Work1th/data/12.json  | JSON     |        204 |          0 |          0 |        204 |
+| /home/xuan/PycharmProjects/Work1th/data/13.json  | JSON     |        224 |          0 |          0 |        224 |
+| /home/xuan/PycharmProjects/Work1th/data/14.json  | JSON     |        424 |          0 |          0 |        424 |
+| /home/xuan/PycharmProjects/Work1th/data/15.json  | JSON     |      7,662 |          0 |          0 |      7,662 |
+| /home/xuan/PycharmProjects/Work1th/data/2.json   | JSON     |        424 |          0 |          0 |        424 |
+| /home/xuan/PycharmProjects/Work1th/data/3.json   | JSON     |        444 |          0 |          0 |        444 |
+| /home/xuan/PycharmProjects/Work1th/data/4.json   | JSON     |        324 |          0 |          0 |        324 |
+| /home/xuan/PycharmProjects/Work1th/data/5.json   | JSON     |        644 |          0 |          0 |        644 |
+| /home/xuan/PycharmProjects/Work1th/data/6.json   | JSON     |        624 |          0 |          0 |        624 |
+| /home/xuan/PycharmProjects/Work1th/data/7.json   | JSON     |        444 |          0 |          0 |        444 |
+| /home/xuan/PycharmProjects/Work1th/data/8.json   | JSON     |        324 |          0 |          0 |        324 |
+| /home/xuan/PycharmProjects/Work1th/data/9.json   | JSON     |        644 |          0 |          0 |        644 |
+| /home/xuan/PycharmProjects/Work1th/data/test.csv | CSV      |         65 |          0 |          0 |         65 |
+| Total                                            |          |     13,630 |          0 |          0 |     13,630 |
++--------------------------------------------------+----------+------------+------------+------------+------------+
